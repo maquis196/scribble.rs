@@ -3,8 +3,8 @@
 if [ -z ${FROM+x} ]; then echo "FROM is unset"; exit 1; fi
 if [ -z ${TO+x} ]; then echo "TO is unset"; exit 1; fi
 
-SOURCE_FILE="../resources/words/${FROM}"
-DESTINATION_FILE="../resources/words/${TO}"
+SOURCE_FILE="../game/words/${FROM}"
+DESTINATION_FILE="../game/words/${TO}"
 
 if [ ! -f ${SOURCE_FILE} ]; then echo "file: ${SOURCE_FILE} does not exist"; fi;
 if [ -f ${DESTINATION_FILE} ]; then

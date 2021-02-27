@@ -13,12 +13,13 @@ import (
 var (
 	wordListCache       = make(map[string][]string)
 	languageIdentifiers = map[string]string{
+		"dutch":      "nl",
 		"english_gb": "en_gb",
 		"english":    "en_us",
-		"italian":    "it",
-		"german":     "de",
 		"french":     "fr",
-		"dutch":      "nl",
+                "german":     "de",
+		"icelandic":  "is",
+		"italian":    "it",
 	}
 
 	//go:embed words/*
