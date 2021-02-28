@@ -19,6 +19,7 @@ var (
 		"german":     "de",
 		"french":     "fr",
 		"dutch":      "nl",
+		"welsh":      "cy",
 	}
 
 	//go:embed words/*
